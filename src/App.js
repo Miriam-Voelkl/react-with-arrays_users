@@ -12,7 +12,7 @@ export default function App() {
         {USERS.map((user) => {
           return (
             <li key={user.id}>
-              <Card user={user}></Card>
+              <Card user={user} />
             </li>
           );
         })}

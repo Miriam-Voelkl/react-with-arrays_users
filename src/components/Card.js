@@ -7,7 +7,7 @@ function Card({ user }) {
       <h2>{user.name}</h2>
       <ul className="card__taglist">
         {user.roles.map((role) => {
-          return <Tag key={role.index} tag={role}></Tag>;
+          return <Tag key={role.index} tag={role} />;
         })}
       </ul>
       <p>{user.about}</p>
